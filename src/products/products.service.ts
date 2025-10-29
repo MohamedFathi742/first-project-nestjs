@@ -18,7 +18,7 @@ id: '1',
   updatedAt: new Date(),
 
 
-}
+},
 {
 
 id: '2',
@@ -32,9 +32,10 @@ id: '2',
   updatedAt: new Date(),
 
 
-}
+},
 
 findAll(): Product[] {
+
     return this.products;
   }
 

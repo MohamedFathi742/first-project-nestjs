@@ -8,5 +8,4 @@ export interface Product {
   isActive: boolean;
   createdAt: Date;
   updatedAt: Date;
-
 }
